@@ -66,6 +66,11 @@ footer {
     font-weight: 600;
 }
 
+.bottone-upgrade:hover {
+    font-weight: 800;
+    padding: 1.1em 2.2em;
+}
+
 
 
 
