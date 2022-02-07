@@ -1,5 +1,5 @@
 :root {
-    --height-footer: 8rem;
+    --height-footer: 6rem;
     --header-width: 15rem;
 }
 
@@ -38,3 +38,39 @@ footer {
 
 }
 
+
+
+
+
+
+.upgrade {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    height: var(--height-footer);
+    width: calc(100% - var(--header-width));
+
+}
+
+.upgrade {
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1em;
+}
+
+.bottone-upgrade {
+    border: 1px solid white;
+    border-radius: 2em;
+    color: white;
+    padding: 1em 2em;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.flex {
+    display: flex;
+}
