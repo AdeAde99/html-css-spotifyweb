@@ -1,6 +1,9 @@
 :root {
     --height-footer: 6rem;
     --header-width: 15rem;
+
+    --grigino: #707277;
+    --verdeSpotify: #adff2f; 
 }
 
 * {
@@ -13,6 +16,9 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
+/*STRUTTURA------------------------------------------------------------------*/
 body {
     display: flex;
     flex-wrap: wrap;
@@ -37,12 +43,51 @@ footer {
     width: 100%;
 
 }
+/*STRUTTURA------------------------------------------------------------------*/
 
 
 
 
 
+/*HEADER------------------------------------------------------------*/
+header {
+    padding: 1em 1.5em;
+    overflow-y: hidden;
+    flex-direction: column;
+    gap: 2em;
+}
 
+header img {
+    width: 150px;
+}
+
+.svg {
+    width: 30px;
+}
+
+.container-header {
+    align-items: center;
+    gap: 0.5em;
+}
+
+header .menu-header {
+    flex-direction: column;
+    gap: 0.5em;
+    position: relative;
+}
+
+.bordo-verde {
+    background-color: var(--verdeSpotify);
+    width: 2px;
+    height: 38px;
+    position: absolute;
+    left: -24px;
+    top: -4px;
+}
+/*HEADER------------------------------------------------------------*/
+
+
+/*BOTTONE UPGRADE------------------------------------------------------------*/
 .upgrade {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
@@ -70,6 +115,7 @@ footer {
     font-weight: 800;
     padding: 1.1em 2.2em;
 }
+/*BOTTONE UPGRADE------------------------------------------------------------*/
 
 
 
@@ -79,3 +125,31 @@ footer {
 .flex {
     display: flex;
 }
+
+
+
+
+
+.grigino {
+    color: var(--grigino);
+}
+
+.white {
+    color: white;
+}
+
+.font-header-grigio {
+    font-weight: 500;
+}
+
+.font-header-bianco {
+
+}
+
+.filtro-svg-grigino {
+    filter: invert(0.4);
+}
+
+
+
+
