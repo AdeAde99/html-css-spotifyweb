@@ -1,5 +1,40 @@
+:root {
+    --height-footer: 8rem;
+    --header-width: 15rem;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: black;
+    height: calc(100vh - var(--height-footer));
+    width: var(--header-width);
+}
+
+main {
+    background-color: #141922;
+    height: calc(100vh - var(--height-footer));
+    width: calc(100% - var(--header-width));
+    overflow-y: auto;
+}
+
+footer {
+    background-color: #282828;
+    height: var(--height-footer);
+    width: 100%;
+
+}
+
